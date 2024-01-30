@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody bulletRigidbody;
    
     void Start()
-    {
+    {  
         bulletRigidbody=GetComponent<Rigidbody>();
         //게임 오브젝트에서 rigidbidy컴포넌트를 찾아 할당
         bulletRigidbody.velocity=transform.forward*speed;
